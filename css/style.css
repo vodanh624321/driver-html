@@ -1,0 +1,134 @@
+body {
+    width: 615px;
+    height: 1067px;
+    background-image: linear-gradient(transparent 0px, transparent 2px, rgb(255, 255, 255) 2px, rgb(255, 255, 255) 20px), linear-gradient(to right, rgb(200, 195, 199) 0px, rgb(200, 195, 199) 2px, rgb(255, 255, 255) 2px, rgb(255, 255, 255) 20px);
+    background-position: 301.5px -2px;
+    background-size: 20px 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    margin: auto;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 22px;
+    height: 3px;
+    background-color: #00c42b;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+#wrapper {
+    width: 375px;
+    height: 934px;
+    background-color: #f7f7f7;
+    margin: auto;
+    border: 1px solid #cccccc;
+}
+
+.header {
+    width: 375px;
+    height: 54px;
+    background-color: #ffffff;
+    border-top: 1px solid #a3a3a3;
+    border-bottom: 1px solid #cccccc;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.title {
+    color: #505050;
+    font-weight: bold;
+}
+
+.header .float-left {
+    padding: 10px;
+}
+
+.header .float-right {
+    margin-right: 40%;
+    margin-top: 15px;
+}
+
+.layer-big {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+}
+
+.layer-small {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #222222;
+}
+
+.layer-tiny {
+    font-size: 11px;
+    font-weight: 500;
+    text-align: left;
+    color: #888888;
+}
+
+.header-bottom {
+    margin: 20px 0;
+}
+
+.rectangle-content {
+    width: 345px;
+    height: 88px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: solid 0.5px #cccccc;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.text-left {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    color: #00c42b;
+    margin-right: 10px;
+}
+
+.text-center {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    color: #222222;
+}
+
+.text-tiny {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: #888888;
+}
+
+.text-align-right {
+    text-align: right;
+}
